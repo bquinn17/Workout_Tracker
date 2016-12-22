@@ -29,4 +29,15 @@ $ rails test
 
 If the test suite passes, you'll be ready to run the app in a local server:
 
+```
 $ rails server
+```
+
+## License
+
+All source code in this project is available under the MIT License. 
+See [LICENSE.md](LICENSE.md) for details.
+
+##More Info
+
+Feel free to contact the developers if you have any further questions.

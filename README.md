@@ -12,7 +12,7 @@ All other dependencies can be found in the Gemfile
 To get started with the app, clone the repo and then install the needed gems:
 
 ```
-$ bundle install --without production
+$ bundle install
 ```
 
 Next, migrate the database:
@@ -35,7 +35,7 @@ $ rails server
 
 ## License
 
-All source code in this project is available under the MIT License. 
+All source code in this project is available under the MIT License.
 See [LICENSE.md](LICENSE.md) for details.
 
 ##More Info

@@ -19,3 +19,6 @@
 # Ignore file containing secret keys
 /config/secrets.yml
 /config/database.yml
+
+# Ignore Spring files.
+/spring/*.pid

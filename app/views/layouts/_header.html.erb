@@ -1,0 +1,23 @@
+<header>
+  <nav class="top-bar" data-topbar role="navigation">
+    <!--    Start Logo    -->
+    <ul class="title-area">
+      <li class="name">
+        <h1>
+          <%= link_to "Workout Tracker", root_path, id: "logo" %>
+        </h1>
+      </li>
+      <li>
+        <span class="toggle-topbar menu-icon"><a href="#"><span></span></a></span>
+      </li>
+    </ul>
+    <!--    End Logo    -->
+    <section class="top-bar-section" id="mean_nav">
+      <ul class="left">
+        <li><%= link_to "Home",   root_path %></li>
+        <li><%= link_to "Help",   help_path %></li>
+        <li><%= link_to "Log in", '#' %></li>
+      </ul>
+    </section>
+  </nav>
+</header>
